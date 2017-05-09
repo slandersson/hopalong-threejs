@@ -1,0 +1,168 @@
+@media (max-width: 767px) {
+  .container-fluid, .row {
+    padding: 0px;
+  }
+  .navbar-header {
+    margin: 0px;
+  }
+}
+
+.hero {
+  background: url(../img/rainylords.jpg) no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.place {
+  text-align: left
+}
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-color: #fffdf9;
+}
+
+.sub {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.icons {
+  height: 57px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  width: 45px;
+  height: 45px;
+  margin-left: 0px;
+  margin-right: 0px
+}
+
+.dropdown-menu {
+  font-size: 18px;
+  left: 50%;
+  right: auto;
+  transform: translate(-50%, 0);
+}
+
+.table>tbody>tr>td {
+  vertical-align: middle;
+  width: auto;
+  font-size: 14px;
+  height: 73%;
+  padding: 0px;
+}
+
+td {
+  vertical-align: middle;
+  width: auto;
+  text-align: right;
+}
+
+th {
+  padding: 3px;
+  width: auto;
+  text-align: center;
+}
+
+th {
+  font-size: 14px;
+  font-weight: normal
+}
+
+.place a {
+  color: #333;
+}
+
+.modal-dialog {
+  top: 30%;
+}
+
+.dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 15px;
+}
+
+.hero {
+  background-image: url(../img/rainylords.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100%;
+  position: relative;
+}
+
+.container {
+  background-color: #fffdf9;
+}
+
+.scrollable-menu {
+  height: auto;
+  max-height: 200px;
+  overflow-x: hidden;
+}
+
+.jumbotron {
+  background-color: #fffdf9;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.hero-content {
+  position: absolute;
+  top: 15%;
+  text-align: center;
+  width: 100%;
+}
+
+.hero-content h2 {
+  color: #FFF;
+  font-size: 80px
+}
+
+.affix {
+  top: 20px;
+}
+
+.hero-content p {
+  color: #FFF;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+#backbutton {
+  background-color: #5d2f1d;
+  border-color: #684905;
+  font-size: 18px;
+}
+
+.hero-content .btn {
+  border-radius: 4px;
+  padding: 20px 30px;
+  background-color: #5d2f1d;
+  border-color: #684905;
+  padding: 19px;
+  font-size: 34px;
+}
+
+.dropdown-toggle:active, .open .dropdown-toggle {
+  background: #5d2f1d !important;
+  color: white !important;
+}
+
+footer {
+  text-align: right;
+  padding-right: 30px;
+}
